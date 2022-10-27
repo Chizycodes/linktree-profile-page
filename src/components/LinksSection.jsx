@@ -4,12 +4,12 @@ const links = [
   {
     name: "Twitter Link",
     url: "https://twitter.com/chizycodes",
-    id: "twitter"
+    id: ""
   },
   {
     name: "Zuri Team",
     url: "https://training.zuri.team/",
-    id: "btn_zuri"
+    id: "btn__zuri"
   },
   {
     name: "Zuri Books",
@@ -19,7 +19,7 @@ const links = [
   {
     name: "Python Books",
     url: "https://books.zuri.team/python-for-beginners?ref_id=Chizycodes",
-    id: "book_python"
+    id: "book__python"
   },
   {
     name: "Background Check for Coders",
@@ -29,7 +29,7 @@ const links = [
   {
     name: "Design Books",
     url: "https://books.zuri.team/design-rules",
-    id: "book_design"
+    id: "book__design"
   },
 
 ]

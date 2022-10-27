@@ -41,7 +41,7 @@ const LinksSection = () => {
       {
         links.map((link, idx) => {
           return (
-            <button key={idx} id={link.id} className="bg-[#EAECF0] py-[24px] w-full max-w-[600px] mb-[24px] rounded-[8px] text-center text-[18px] text-[#101828] font-[500]">
+            <button key={idx} id={link.id} className="bg-[#EAECF0] py-[24px] w-full max-w-[700px] mb-[24px] rounded-[8px] text-center text-[18px] text-[#101828] font-[500]">
               <Link to={link.url} target="_blank">{link.name}</Link>
             </button>
           )

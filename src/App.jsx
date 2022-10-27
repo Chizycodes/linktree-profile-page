@@ -6,7 +6,7 @@ import Footer from './components/Footer';
 
 export default function App() {
   return (
-    <main className="py-10">
+    <main className="pt-[64px] pb-[34px]">
       <section>
         <ProfileSection />
       </section>

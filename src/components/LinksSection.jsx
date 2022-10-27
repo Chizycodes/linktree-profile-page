@@ -9,7 +9,7 @@ const links = [
   {
     name: "Zuri Team",
     url: "https://training.zuri.team/",
-    id: "btn__zuri"
+    id: "btn_zuri"
   },
   {
     name: "Zuri Books",
@@ -19,7 +19,7 @@ const links = [
   {
     name: "Python Books",
     url: "https://books.zuri.team/python-for-beginners?ref_id=Chizycodes",
-    id: "book__python"
+    id: "book_python"
   },
   {
     name: "Background Check for Coders",
@@ -29,7 +29,7 @@ const links = [
   {
     name: "Design Books",
     url: "https://books.zuri.team/design-rules",
-    id: "book__design"
+    id: "book_design"
   },
 
 ]

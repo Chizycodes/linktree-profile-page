@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 const links = [
   {
@@ -10,7 +9,7 @@ const links = [
   {
     name: "Zuri Team",
     url: "https://training.zuri.team/",
-    id: "btn_zuri"
+    id: "btn__zuri"
   },
   {
     name: "Zuri Books",
@@ -19,8 +18,8 @@ const links = [
   },
   {
     name: "Python Books",
-    url: "https://books.zuri.team/python-for-beginners?ref_id=chizycodes",
-    id: "book_python"
+    url: "https://books.zuri.team/python-for-beginners?ref_id=Chizycodes",
+    id: "book__python"
   },
   {
     name: "Background Check for Coders",
@@ -30,7 +29,7 @@ const links = [
   {
     name: "Design Books",
     url: "https://books.zuri.team/design-rules",
-    id: "book_design"
+    id: "book__design"
   },
 
 ]
@@ -41,9 +40,9 @@ const LinksSection = () => {
       {
         links.map((link, idx) => {
           return (
-            <button key={idx} id={link.id} className="bg-[#EAECF0] py-[24px] w-full max-w-[700px] mb-[24px] rounded-[8px] text-center text-[18px] text-[#101828] font-[500]">
-              <Link to={link.url} target="_blank">{link.name}</Link>
-            </button>
+           
+              <a href={link.url} key={idx} id={link.id} target="_blank" className="bg-[#EAECF0] py-[24px] w-full max-w-[700px] mb-[24px] rounded-[8px] text-center text-[18px] text-[#101828] font-[500]">{link.name}</a>
+            
           )
         })
       }

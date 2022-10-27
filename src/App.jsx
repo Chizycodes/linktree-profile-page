@@ -4,13 +4,13 @@ import ProfileSection from './components/ProfileSection';
 
 export default function App() {
   return (
-    <main className="w-full">
-      <div>
+    <main className="py-10">
+      <section>
         <ProfileSection />
-      </div>
-      <div className="w-full">
+      </section>
+      <section className="">
         <LinksSection />
-      </div>
+      </section>
     </main>
   );
 }

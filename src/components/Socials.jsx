@@ -1,5 +1,3 @@
-import { Link } from "react-router-dom";
-
 const Socials = () => {
   return (
     <div className="flex justify-center mt-[24px] gap-3">

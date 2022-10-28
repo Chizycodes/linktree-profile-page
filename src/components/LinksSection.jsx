@@ -4,32 +4,32 @@ const links = [
   {
     name: "Twitter Link",
     url: "https://twitter.com/chizycodes",
-    id: "twitter__link"
+    id: 'twitter__link'
   },
   {
     name: "Zuri Team",
     url: "https://training.zuri.team/",
-    id: "btn__zuri"
+    id: 'btn__zuri'
   },
   {
     name: "Zuri Books",
     url: "http://books.zuri.team",
-    id: "books"
+    id: 'books'
   },
   {
     name: "Python Books",
     url: "https://books.zuri.team/python-for-beginners?ref_id=Chizycodes",
-    id: "book__python"
+    id: 'book__python'
   },
   {
     name: "Background Check for Coders",
     url: "https://background.zuri.team",
-    id: "pitch"
+    id: 'pitch'
   },
   {
     name: "Design Books",
     url: "https://books.zuri.team/design-rules",
-    id: "book__design"
+    id: 'book__design'
   },
 
 ]

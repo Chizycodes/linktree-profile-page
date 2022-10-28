@@ -4,7 +4,7 @@ const links = [
   {
     name: "Twitter Link",
     url: "https://twitter.com/chizycodes",
-    id: ""
+    id: "twitter__link"
   },
   {
     name: "Zuri Team",

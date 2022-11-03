@@ -18,7 +18,7 @@ export default function App() {
         <Route path='*' element={<Home />} />
       </Routes>
 
-      <section>
+      <section className='w-full'>
         <Footer />
       </section>
     </div>

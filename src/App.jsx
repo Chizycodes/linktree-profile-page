@@ -18,9 +18,9 @@ export default function App() {
         <Route path='*' element={<Home />} />
       </Routes>
 
-      <section className='w-full'>
+      <div className='w-full'>
         <Footer />
-      </section>
+      </div>
     </div>
   );
 }

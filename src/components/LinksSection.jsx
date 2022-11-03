@@ -31,12 +31,7 @@ const links = [
     name: "Design Books",
     url: "https://books.zuri.team/design-rules",
     id: 'book__design'
-  },
-  {
-    name: "Contact Me",
-    url: "/contact",
-    id: 'contact'
-  },
+  }
 ]
 
 const LinksSection = () => {
@@ -49,6 +44,7 @@ const LinksSection = () => {
           )
         })
       }
+      <Link to="/contact" id="contact" className="bg-[#EAECF0] py-[24px] w-full max-w-[700px] mb-[24px] rounded-[8px] text-center text-[18px] text-[#101828] font-[500] hover:bg-[#D0D5DD]">Contact Me</Link>
 
     </div>
 

@@ -1,27 +1,26 @@
 import './App.css'
-import LinksSection from './components/LinksSection';
-import ProfileSection from './components/ProfileSection';
-import Socials from './components/Socials';
+import {
+  Route,
+  Routes
+} from "react-router-dom";
 import Footer from './components/Footer';
+import Home from "./pages/Home";
+import Contact from "./pages/Contact";
 
 export default function App() {
   return (
-    <main className="pt-[64px] pb-[34px]">
+    <div className='flex flex-col w-full items-center'>
+      <Routes>
+        <Route path='/' element={<Home />} />
+
+        <Route path='contact' element={<Contact />} />
+
+        <Route path='*' element={<Home />} />
+      </Routes>
+
       <section>
-        <ProfileSection />
-      </section>
-      
-      <section className="">
-        <LinksSection />
-      </section>
-      
-      <section className="">
-        <Socials />
-      </section>
-      
-      <section className="">
         <Footer />
       </section>
-    </main>
+    </div>
   );
 }

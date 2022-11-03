@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const links = [
   {
@@ -31,7 +32,11 @@ const links = [
     url: "https://books.zuri.team/design-rules",
     id: 'book__design'
   },
-
+  {
+    name: "Contact Me",
+    url: "/contact",
+    id: 'contact'
+  },
 ]
 
 const LinksSection = () => {
@@ -40,12 +45,11 @@ const LinksSection = () => {
       {
         links.map((link, idx) => {
           return (
-           
-              <a href={link.url} key={idx} id={link.id} target="_blank" className="bg-[#EAECF0] py-[24px] w-full max-w-[700px] mb-[24px] rounded-[8px] text-center text-[18px] text-[#101828] font-[500] hover:bg-[#D0D5DD]">{link.name}</a>
-            
+            <a href={link.url} key={idx} id={link.id} target={link.id !== "contact" ? "_blank" : ""} className="bg-[#EAECF0] py-[24px] w-full max-w-[700px] mb-[24px] rounded-[8px] text-center text-[18px] text-[#101828] font-[500] hover:bg-[#D0D5DD]">{link.name}</a>
           )
         })
       }
+
     </div>
 
   );

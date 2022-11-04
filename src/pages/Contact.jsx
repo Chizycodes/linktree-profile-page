@@ -32,7 +32,7 @@ const Contact = () => {
           <label className="text-[#475467]">You agree to providing your data to Joy who may contact you.</label>
         </div>
 
-        <button className="text-white bg-[#1570EF] py-[12px] rounded-[8px] w-full" id="btn__submit">
+        <button type="submit" className="text-white bg-[#1570EF] py-[12px] rounded-[8px] w-full" id="btn__submit">
           Send message
         </button>
 
